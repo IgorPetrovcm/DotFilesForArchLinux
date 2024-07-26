@@ -1,0 +1,3 @@
+#!/bin/sh
+
+i3lock -n -i $HOME/Images/Wallpapers/b-536.png

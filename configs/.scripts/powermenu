@@ -1,0 +1,9 @@
+#!/bin/sh
+
+choice=$(printf "Shutdown\nSuspend\nReboot\nLock\nLogout" | rofi -dmenu)
+case $choice in
+	Shutdown) shutdown now ;;
+	Suspend) suspend ;;
+	Reboot) reboot ;;
+	Lock) pkill -KILL -u $USER ;;
+esac
