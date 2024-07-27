@@ -52,6 +52,5 @@ fi
 #xclock -geometry 50x50-1+1 &
 #xterm -geometry 80x50+494+51 &
 #xterm -geometry 80x20+494-0 &
-setxkbmap -option grp:alt_shift_toggle us,ru &
 sxhkd &
 exec bspwm

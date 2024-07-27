@@ -2,7 +2,8 @@
 
 picom -f &
 flameshot &
-sh $HOME/.config/.scripts/random_wallpaper & 
+sh $HOME/.config/.scripts/random_wallpaper 
+setxkbmap -option grp:alt_shift_toggle us,ru &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
